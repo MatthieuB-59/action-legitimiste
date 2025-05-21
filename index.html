@@ -2,103 +2,433 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Matthieu Bouin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Action Légitimiste</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/logo_cal.png" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#presentation">Qui sommes-nous</a></li>
-        <li><a href="#doctrine">Notre doctrine</a></li>
-        <li><a href="#actions">Nos actions</a></li>
-        <li><a href="#adherer">Adhérer</a></li>
-        <li><a href="#reseaux">Nos réseaux</a></li>
-      </ul>
-    </nav>
-    <h1>Cercle d'Action Légitimiste</h1>
-    <h2 id="accueil">Accueil</h2>
-    <p>
-      Nous vous souhaitons la bienvenue sur le site officiel du Cercle d'Action
-      Légitimiste.
-    </p>
-    <h2 id="presentation">Qui sommes-nous</h2>
-    <p>
-      Le Cercle d'Action Légitimiste est une association loi 1901 qui permet la
-      propagation de l'existence du Roi actuel Louis XX, et qui a pour but de
-      participer au chemin du sacre de ce dernier.
-    </p>
-    <p>
-      Sur Instagram, nous avons plus de 7000 sympathisants, et nous sommes
-      environ 500 membres actifs sur le territoire.
-    </p>
-    <h2 id="doctrine">La doctrine du Cercle d'Action Légitimiste</h2>
-    <p></p>
-    <h2 id="actions">Nos actions</h2>
-    <p>
-      Tout au long de l'année, dans nos sections et délégations, nous organisons
-      des actions.
-    </p>
-    <ul>
-      <li>Collages</li>
-      <li>Stickages</li>
-      <li>Pélerinages</li>
-      <li>Messes</li>
-      <li>Maraudes</li>
-      <li>Conférences</li>
-      <li>Réunions</li>
-      <li>Débats</li>
-      <li>Soirées</li>
-      <li>Banderoles</li>
-      <li>...</li>
-    </ul>
-    <h2 id="adherer">Adhérer au Cercle d'Action Légitimiste</h2>
-    <p>
-      L'adhésion au Cercle d'Action Légitimiste en tant que membre sympathisant
-      est gratuite. Vous ne recevrez PAS de carte adhérent une fois la démarche
-      réalisée. Vous pouvez, si vous le souhaitez, adhérer en tant que membre de
-      soutien / bienfaiteur, ce qui incluera un montant de 10, 20, ou 50€. Le
-      site est 100% sécurisé.
-    </p>
-    <p>
-      Cliquez
-      <a
-        href="https://boutique.macotisation.fr/collect/Cercle-daction-legitimiste/Adhesion-au-Cercle-daction-legitimiste/5bZ2BEbK"
-        target="_blank"
-        >ici</a
-      >
-      pour adhérer.
-    </p>
-    <br />
-    <p>
-      Vous pouvez aussi faire un don au Cercle d'Action Légitimiste, le montant
-      est libre. Sachez que notre cercle ne vit que des dons des sympathisants,
-      donc chaque euro donné nous aide énormément. Le site est 100% sécurisé.
-    </p>
-    <p>
-      Cliquer
-      <a
-        href="https://boutique.macotisation.fr/collect/Cercle-daction-legitimiste/Don-au-cercle-daction-legitimiste/pbmgLKjK"
-        target="_blank"
-        >ici</a
-      >
-      pour faire un don.
-    </p>
-    <h2 id="reseaux">Nous retrouver sur les réseaux</h2>
-    <p>
-      Nous sommes présents sur Instagram, Youtube, TikTok, X, Facebook,
-      Télégram, Discord, et nous avons notre propre magazine royaliste,
-      disponible en ligne et en format papier.
-    </p>
-    <p>
-      Cliquez
-      <a
-        href="https://linktr.ee/ActionLegitimiste?fbclid=PAZXh0bgNhZW0CMTEAAaeDIzQLSCUoTB2AgMg9dyfKsG6_mGo5YrJ3t53OuZar44Bvik6Y-h3ZGJMTuQ_aem_pUJT85839oub9GMwk1aO3g"
-        target="_blank"
-        >ici</a
-      >
-      pour avoir accès à tous nos réseaux sociaux.
-    </p>
+    <header>
+      <nav id="menu">
+        <a href="#presentation" class="partie">Présentation</a>
+        <a href="#antennes" class="partie">Nos antennes</a>
+        <a href="#actions" class="partie">Nos actions</a>
+        <a href="#doctrine" class="partie">Notre doctrine</a>
+        <a href="#adherer" class="partie">Adhérer/Donner</a>
+        <a href="#reseaux" class="partie">Nos réseaux</a>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="page-section" id="bienvenue">
+        <h1>Cercle d'Action Légitimiste</h1>
+        <div class="container-img">
+          <img src="images/logo_cal.png" alt="Logo du Cercle" id="logo-cal" />
+        </div>
+        <br />
+        <p id="texte-bienvenue">
+          Nous vous souhaitons la bienvenue sur le site officiel du Cercle
+          d'Action Légitimiste.
+        </p>
+      </div>
+
+      <div class="page-section" id="presentation">
+        <h2>Présentation du Cercle</h2>
+        <p>
+          Le Cercle d’action légitimiste est une association qui relève de la
+          Loi du 1er juillet 1901 et du décret du 16 août 1901.
+        </p>
+        <p>
+          Le Cercle est placé sous le patronage de Saint Mayeul et de Saint
+          Odilon, deux saints emblématiques du Bourbonnais, province où est né
+          le Cercle.
+        </p>
+        <h3>Pourquoi ce Cercle ?</h3>
+        <p>
+          Nous partons du principe qu’il est de notre devoir d’agir pour ce que
+          nous savons être bon. Les scrupules des honnête gens à s’inscrire dans
+          l’action servent les œuvres de la Révolution et sont propices à ses
+          projets à venir.
+        </p>
+        <h3>A qui ce Cercle est-il destiné ?</h3>
+        <p>
+          L’action légitimiste, contre-révolutionnaire , est par nature
+          catholique. Elle se fonde sur la Doctrine sociale de l’Eglise, sur
+          l’ordre naturel institué et voulu par Notre Seigneur.
+        </p>
+        <p>
+          L’action contre-révolutionnaire sans Dieu ne serait pas
+          contre-révolutionnaire, elle serait une œuvre de la Révolution, elle
+          participerait son jeu.
+        </p>
+        <h3>
+          Toutefois l’action contre-révolutionnaire s’adresse à toutes les
+          personnes, croyantes ou non :
+        </h3>
+        <p>
+          ⚜ Aux catholiques suffisamment éclairés pour être conscients de leur
+          devoir moral,
+        </p>
+        <p>
+          ⚜ Aux personnes de bonne volonté dont les valeurs morales sont
+          suffisantes pour comprendre la nécessité de l’ordre social chrétien /
+          ordre naturel, suffisantes pour se traduire en acte.
+        </p>
+        <h3>Quelques chiffres</h3>
+        <p>
+          Le Cercle d'Action Légitimiste réunit plus de 13000 abonnés sur
+          Facebook, 7000 sur Instagram, 4000 sur Youtube, nous sommes environ
+          500 membres actifs sur le terrain.
+        </p>
+        <h3>Quels sont les obectifs du Cercle ?</h3>
+        <p>
+          Ce Cercle a pour ambition d’aller au-delà des Cercles d’étude
+          classiques qui conduisent trop souvent à de l’entre-soi et à oublier
+          petit à petit la nécessité d’utiliser tous les canaux possibles pour
+          aller à la rencontre des Français et leur faire connaître le remède
+          royaliste.
+        </p>
+        <p>
+          Ainsi le Cercle a-t-il pour objet de former ses membres et ses
+          sympathisants et de parfaire notre connaissance de la Doctrine sociale
+          de l’Eglise / Doctrine légitimiste mais il a également pour objectif
+          de promouvoir auprès des Français, via une stratégie multicanale, les
+          vertus de la Loi Naturelle et la solution royale.
+        </p>
+        <p class="italic">
+          Tous les propos tenus par le Cercle ne saurait engager la personne du
+          Roi, SMR Louis XX.
+        </p>
+      </div>
+
+      <div class="page-section" id="antennes">
+        <h2>Nos antennes</h2>
+        <p>
+          Nous sommes implantés sur le territoire francais, mais aussi à
+          l'étranger.
+        </p>
+        <p>Voici la carte de nos sections et délégations :</p>
+        <div class="container-img">
+          <img
+            src="images/carte_antennes.webp"
+            alt="cartes des antennes du cercle"
+            id="carte-antennes"
+          />
+        </div>
+        <p>
+          Une section est une agglomération. Elle est généralement fréquentée
+          par des jeunes de 18 à 35 ans. Leurs militants font particulièrement
+          des collages, stickages, maraudes, actions banderoles,... <br />
+          En revanche, une délégation est représentée par un territoire / une
+          province. Elle est surtout créée pour des personnes de 35 à 60 ans. On
+          porte plus d'attention aux conférences, messes, pélerinages, et
+          autres.
+        </p>
+        <p>
+          Nous sommes présents officiellement dans les villes de Lille, Reims,
+          Nancy, Paris, Strasbourg, Vannes, Dijon, Chambéry, Bordeaux et
+          Toulouse.
+          <br />
+          Nous sommes aussi présents dans les territoires du Mantois, de
+          l'Orléanais, du Lyonnais-Forez, du Dauphiné, et au Japon (francais
+          légitimistes expatriés).
+        </p>
+      </div>
+
+      <div class="page-section" id="actions">
+        <h2>Nos actions</h2>
+        <p>
+          Tout au long de l'année, dans nos sections et délégations, nous
+          organisons des actions.
+        </p>
+        <ul>
+          <li>Collages</li>
+          <li>Stickages</li>
+          <li>Pélerinages</li>
+          <li>Messes</li>
+          <li>Maraudes</li>
+          <li>Conférences</li>
+          <li>Réunions</li>
+          <li>Débats</li>
+          <li>Soirées</li>
+          <li>Banderoles</li>
+          <li>...</li>
+        </ul>
+        <p>
+          Voici un exemple d'action de collage effectuée par la section
+          Lilloise.
+        </p>
+        <video
+          src="videos/collage.mp4"
+          id="collage-video"
+          autoplay
+          muted
+          loop
+          width="30%"
+        >
+          vidéo dynamique de collage par la section lilloise
+        </video>
+      </div>
+
+      <div class="page-section" id="doctrine">
+        <h2>La doctrine du Cercle</h2>
+        <h3>Doctrine</h3>
+        <ul>
+          <li>
+            Une société n’est durablement épanouie que si celle-ci ordonnée
+            selon la Loi Naturelle
+          </li>
+          <li>
+            La Souveraineté vient d’en haut, le pouvoir est délégué en
+            application du principe de subsidiarité (ex : décentralisation,
+            démocratie locale, …)
+          </li>
+          <li>
+            La France est un Royaume, la république est un régime d’occupation
+          </li>
+          <li>La Chrétienté a forgé l’âme de la France</li>
+          <li>
+            Le Royaume de France est régi par le droit coutumier et plus
+            précisément par les Lois Fondamentales du Royaume de France
+          </li>
+          <li>Nul ne peut modifier les Lois Fondamentales, pas même le Roi</li>
+          <li>
+            On ne choisit pas son Roi. Le successeur des Rois de France est
+            celui qui est désigné par les Lois Fondamentales
+          </li>
+          <li>
+            Le libéralisme sous toutes ses formes est à combattre. C’est un
+            fruit de la Révolution, il s’attache à effacer toutes les
+            frontières, physiques et morales, pour construire un monde sans Dieu
+            où l’Homme prétend soumettre le monde à ses désirs
+          </li>
+          <li>
+            Il est impossible de restaurer durablement la civilisation
+            chrétienne avec un régime désordonné, non conforme à la Loi
+            Naturelle
+          </li>
+          <li>
+            Il est illusoire et contre-productif d’utiliser des moyens non
+            conformes au Droit Naturel pour restaurer le Droit Naturel (ex
+            vouloir restaurer le Royaume par les urnes, …)
+          </li>
+        </ul>
+        <h3>Lexique</h3>
+        <ul>
+          <li>
+            <div class="mot">Droit Naturel :</div>
+            <div class="def">
+              Droit découlant de l’application de la Loi Naturelle
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Droits Naturels de l’Homme :</div>
+            <div class="def">
+              L’expression « Droit naturel de l’Homme » est abusive si on
+              s’inscrit dans les pas de St Thomas d’Aquin. Elle est toutefois
+              employée ici pour simplifier le discours et se faire comprendre
+              par le plus grand nombre.
+              <br />Louis XVI les synthétise au nombre de 4 : la vie, l’honneur,
+              la liberté et la propriété. <br />Au XXème siècle, le Vénérable
+              Pape Pie XII approfondit la question et liste les droits suivants:
+              <ol>
+                <li>
+                  Droit à entretenir et à développer la vie corporelle,
+                  intellectuelle et morale
+                </li>
+                <li>Droit à une formation et à une éducation religieuses</li>
+                <li>
+                  Droit au culte de Dieu, privé ou public, y compris l’action
+                  charitable religieuse
+                </li>
+                <li>Droit au mariage et à l’obtention de sa fin</li>
+                <li>Droit à la société conjugale et domestique</li>
+                <li>
+                  Droit au travail comme moyen indispensable à l’entretien de la
+                  vie familiale
+                </li>
+                <li>
+                  Droit au libre choix de l’état de vie et donc aussi à l’état
+                  sacerdotal ou religieux
+                </li>
+                <li>
+                  Droit à l’usage des biens matériels dans la conscience de ses
+                  propres devoirs et des limites sociales
+                </li>
+                <li>Droits politiques</li>
+                <li>Droit d'association</li>
+                <li>Droit à la sécurité juridique</li>
+                <li>Droit de propager la Vérité</li>
+                <li>Droit à la vie</li>
+              </ol>
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Indisponibilité de la couronne :</div>
+            <div class="def">
+              Le roi (ou qui que ce soit d'autre) n'a pas le pouvoir de désigner
+              son successeur, mais que la succession est immédiate (Adage « Le
+              Roi est mort, vive le Roi »). Il en découle également que le roi
+              n'a pas le pouvoir de la céder à une puissance étrangère, ni même
+              d'abdiquer. C'est à ce titre que nul traité ne peut exclure un
+              Prince de la succession (ex : traité de Troyes et traité
+              d'Utrecht)
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Lois Fondamentales du Royaume de France :</div>
+            <div class="def">
+              La succession au trône de France est régie par le Lois
+              Fondamentales (ou encore appelées, Lois du Royaume) Elles
+              sontsupérieures aux lois du Roi. Ces lois s'imposent à tous, même
+              le Roi ne peut y contrevenir. Elles sont :
+              <ul>
+                <li>Primogéniture (droit d’aînesse)</li>
+                <li>Masculinité</li>
+                <li>
+                  Indisponibilité de la Couronne et inaliénabilité du domaine
+                </li>
+                <li>Catholicité</li>
+              </ul>
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Loi Naturelle :</div>
+            <div class="def">
+              Loi antérieure et supérieure à toute loi humaine. Dans De Legibus,
+              Cicéron définit ainsi la Loi Naturelle :
+              <br />« Il est, en effet, une loi véritable, la droite raison
+              conforme à la nature, immuable et éternelle qui appelle l’homme au
+              devoir par ses commandements et le détourne du mal par ses
+              défenses et dont les commandements ni les défenses ne restent
+              jamais sans effet sur les bons, ni sans action sur les méchants. »
+              <br />On ne peut :
+              <ul>
+                <li>ni l’infirmer par d’autres lois,</li>
+                <li>ni déroger à quelques-uns de ses préceptes,</li>
+                <li>ni l’abroger tout entière.</li>
+              </ul>
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Masculinité :</div>
+            <div class="def">
+              Seul un homme peut succéder et la succession ne peut s’opérer que
+              par les mâles
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Ordre Naturel :</div>
+            <div class="def">
+              Il s’agit de l’ordre qui est l’aboutissement de la Loi Naturelle.
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Principe de catholicité :</div>
+            <div class="def">
+              Le Roi de France doit appartenir à la religion catholique. (Cette
+              obligation ne concerne évidemment pas les sujets du Roi de
+              France.) Il doit être catholique, né d’une succession
+              ininterrompue de mariages catholiques.
+            </div>
+          </li>
+          <br />
+          <li>
+            <div class="mot">Principe de subsidiarité :</div>
+            <div class="def">
+              Principe selon lequel une autorité supérieure ne se saisit d’une
+              mission que si celle-ci ne peut pas être remplie par un échelon
+              inférieur. Autrement dit, principe selon lequel les décisions sont
+              prises par le niveau le plus proche de ceux qui sont directement
+              concernés par celles-ci.
+            </div>
+          </li>
+          <br />
+        </ul>
+      </div>
+
+      <div class="page-section" id="adherer">
+        <h2>Adhérer / Faire un don au Cercle</h2>
+        <h3>
+          Agissez pour le retour du Roi, rejoignez le Cercle d’Action
+          Légitimiste !
+        </h3>
+        <p>
+          Il est nécessaire d’être membre pour participer aux réunions,
+          formations et manifestations internes.
+        </p>
+        <h4>Deux types d’adhésion sont possibles :</h4>
+        <ul>
+          <li>Membre sympathisant : cotisation à partir de 0€</li>
+          <li>
+            Membre de soutien : cotisation minimum 20€ (10€ si vous êtes sans
+            emploi, au foyer, étudiant, ou membre du clergé)
+          </li>
+          <li>Membre bienfaiteur : cotisation minimum de 50€.</li>
+        </ul>
+        <h4>Deux types d’engagement :</h4>
+        <ul>
+          <li>
+            Membre simple : vous souhaitez nous faire savoir votre soutien et
+            être informés de l’actualité du mouvement
+          </li>
+          <li>
+            Membre actif : vous souhaitez agir concrètement avec les militants
+            du Cercle d’action légitimiste.
+          </li>
+        </ul>
+        <p>Le site est 100% sécurisé.</p>
+        <p>
+          Cliquez
+          <a
+            href="https://boutique.macotisation.fr/collect/Cercle-daction-legitimiste/Adhesion-au-Cercle-daction-legitimiste/5bZ2BEbK"
+            target="_blank"
+            >ici</a
+          >
+          pour adhérer.
+        </p>
+        <h3>Faire un don pour le Cercle d'Action Légitimiste</h3>
+        <p>
+          Vous pouvez aussi faire un don au Cercle d'Action Légitimiste, le
+          montant est libre. Sachez que notre cercle ne vit que des dons des
+          sympathisants, donc chaque euro donné nous aide énormément. <br />Le
+          site est 100% sécurisé.
+        </p>
+        <p>
+          Cliquer
+          <a
+            href="https://boutique.macotisation.fr/collect/Cercle-daction-legitimiste/Don-au-cercle-daction-legitimiste/pbmgLKjK"
+            target="_blank"
+            >ici</a
+          >
+          pour faire un don.
+        </p>
+      </div>
+
+      <div class="page-section" id="reseaux">
+        <h2>Nous retrouver sur les réseaux</h2>
+        <p>
+          Nous sommes présents sur Instagram, Youtube, TikTok, X, Facebook,
+          Télégram, Discord, et nous avons notre propre magazine royaliste,
+          disponible en ligne et en format papier.
+        </p>
+        <p>
+          Cliquez
+          <a
+            href="https://linktr.ee/ActionLegitimiste?fbclid=PAZXh0bgNhZW0CMTEAAaeDIzQLSCUoTB2AgMg9dyfKsG6_mGo5YrJ3t53OuZar44Bvik6Y-h3ZGJMTuQ_aem_pUJT85839oub9GMwk1aO3g"
+            target="_blank"
+            >ici</a
+          >
+          pour avoir accès à tous nos réseaux sociaux.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
